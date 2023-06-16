@@ -164,6 +164,8 @@ main .contenedorDescuentos {
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .products .card img{
