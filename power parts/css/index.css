@@ -49,7 +49,7 @@ header #logo {
 
 header #banner {
     width: 100%;
-    margin-top: 32px;
+    margin-top: 52px;
 }
 
 header nav {
@@ -207,45 +207,6 @@ main .contenedorDescuentos {
 }
 
 
-
-/* .contenedor{
-    margin:auto;
-    padding: var(--margenes) 0;
-    width: 90%;
-    max-width: 1000px;
-    text-align: center;
-    overflow: hidden;
-}
-
-.card{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-    
-.content-card{
-    width: 31%;
-    box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
-    overflow: hidden;
-    height:400px;
-}
-    
-.people{
-    height: 70%;
-}
-    
-.content-card img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}   
-    
-.texto-team{
-    height: 20%;
-    width: 100%;
-    padding: var(--espacios) 0;
-} */
-
 section #banner2 {
     width: 100%;
     margin-top: 32px;
@@ -303,5 +264,47 @@ footer p {
     font-size: 12px;
     margin-top: 48px;
 }
+.hora-estilo {
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+    position: absolute;
+    top: 210px;
+    right: 350px;
+  }
+  .fecha-estilo {
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+    position: absolute;
+    left: 18%;
+    bottom: 70%;
+  }
+  #aside_cal {
+    font-size: 14px;
+    background-color: #000000;
+    border: 4px solid #0c3170;
+    border-radius: 8px;
+    position: absolute;
+    top: 10%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+  }
+  #aside_cal table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #aside_cal th,
+  #aside_cal td {
+    padding: 4px;
+    text-align: center;
+  }
+  #aside_cal th {
+    background-color: #7889d6;
+  }
+  #aside_cal td {
+    background-color: #b1faff;
+  }
+
+
+
 
 

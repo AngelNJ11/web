@@ -82,6 +82,34 @@ textarea{
     border-color: #aa48aa;
 
 }
+form input[type="radio"]{
+    display: none;
+}
+
+form .buttonfor{
+    height: 45px;
+    margin:45px 0;
+}
+form .buttonfor input{
+    height: 100%;
+    width: 97%;
+    outline: none;
+    color: #000000;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #834a7e, #13d4c4);
+}
+.hora-estilo {
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+    margin: 60px;
+    position: absolute;
+    top: 210px;
+    right: 350px;
+  }
 
 
 
