@@ -111,6 +111,20 @@ form .buttonfor input{
     right: 350px;
   }
 
+  #ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #ubicacion p {
+    font-size: 20px;
+    background-color: #332216;
+    padding: 20px;
+    color: #f0f0f0;
+    box-shadow: 0 0 5px #000;
+  }
 
 
 
